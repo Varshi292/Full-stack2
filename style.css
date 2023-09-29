@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 80px;
+    width: auto;
+    background-color: rgb(20, 18, 18);
+    display: flex;
+}
+h1{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+}
+#title img{
+    border-radius: 600px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    
+}
+#title{
+    display: flex;
+    margin-left: 20px;
+}
+section {
+    width: 100%;
+    height: 0;
+    padding-bottom: 39%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+  }
+  .login{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,);
+    position: relative;
+  }
+  .section-title{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+.section-title h1,h2{
+    font-family: 'Crimson Text', serif;
+    font-weight: 10;
+    color: white;
+
+}
+.section-title h1{
+  margin: 2px;
+  color: white;
+}
+.section-title h2{
+  margin-left: 200px;
+  color: goldenrod;
+  font-size: 30px;
+}
+.section-title button{
+  height: 70px;
+  width: 160px;
+  background: rgba(36, 34, 34, 0.771);
+  color: white;
+  border: 3px solid goldenrod;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-left: 195px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+#arrow{
+  color: white;
+  font-size: 36px;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 240px;
+  margin-top: 46px;
+  animation-name: expand;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+.label img{
+  width: 1519px;
+}
+.label{
+  margin: 0px;
+  padding: 0px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  background-color: rgb(26, 25, 25);
+  
+}
+.grid-item {
+  background-color: rgb(253, 253, 253);
+  border-radius: 30px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  height: 500px;
+  
+}
+.content #w1,#w3,#w5,#w7,#w9{
+  margin: 0px;
+  width: 477px;
+  height: 300px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.content #f2,#f4,#f6,#f8{
+  width: 300px;
+  height: 300px;
+  margin-top: 8px;
+  
+  
+}
+#item{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(97, 91, 91);
+  cursor: pointer;
+}
+#item1{
+  color: rgb(97, 91, 91);
+  font-size: 20px;
+  margin-top: 6px;
+}
+#item2{
+  height: 50px;
+  width: 130px;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+#nav{
+  display: flex;
+  color: white;
+  right: 0;
+  position: absolute;
+  margin-top: 24px;
+}
+#nav p{
+  margin-right: 50px;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+#nav p:hover{
+  text-decoration: underline;
+}
+
+footer{
+  height: 300px;
+  background-color: rgb(45, 44, 44);
+  display: flex;
+}
+footer #ainfo{
+  width: 50%;
+}
+#ainfo p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+#ainfo h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 10;
+  font-size: 30px;
+  color: goldenrod;
+}
+#cinfo p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+#cinfo h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 10;
+  font-size: 30px;
+  color: goldenrod;
+}
+footer #cinfo{
+  width: 50%;
+}
+
+@keyframes expand {
+  from{
+    margin-top: 46px;
+  }
+  to{
+    margin-top: 70px;
+  }
+}
+
+
+
+  
